@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>
+            Simple Todo APP
+        </title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <div class="h1">Todo APP</div>
+            </div>
+
+            <div class="container">
+                <div class="items">
+                    <ul id="items"></ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="form">
+                    <input type="text" id="input" placeholder="Enter your task" autofocus>
+                    <button id="btn" onclick="addItem()">Add</button>
+                </div>
+            </div>
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
